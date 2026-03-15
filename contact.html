@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <title>Учителско портфолио | Контакт</title>
+    <meta
+      name="description"
+      content="Страница за контакт с Атанас Димов чрез онлайн форма за съобщения."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png" />
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body class="is-loading" data-page="contact">
+    <div class="site-loader" data-site-loader role="status" aria-live="polite">
+      <div class="site-loader__stage">
+        <div class="site-loader__glow" aria-hidden="true"></div>
+        <figure class="site-loader__art" aria-hidden="true">
+          <img class="site-loader__image" src="assets/loadpage.png" alt="" decoding="async" />
+        </figure>
+        <div class="site-loader__copy">
+          <strong>Учителско портфолио</strong>
+          <span>Зареждане на страницата...</span>
+        </div>
+      </div>
+    </div>    <div class="site-shell">
+      <header class="topbar">
+        <div class="container topbar-inner">
+          <a class="brand" href="index.html" aria-label="Портфолио">
+            <div class="brand-mark"><img class="brand-mark-image" src="assets/atanas-photo.jpg" alt="Атанас Димов" /></div>
+            <div class="brand-copy">
+              <div class="brand-title">Портфолио на Атанас Димов</div>
+              <div class="brand-subtitle">Учител по информационни технологии | ИСУ „Никола Й. Вапцаров“</div>
+            </div>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Отвори меню"
+            aria-expanded="false"
+            data-nav-toggle
+          >
+            <span></span>
+          </button>
+
+          <nav class="nav" data-nav>
+            <a href="index.html" data-page="about">За мен</a>
+            <a href="activities.html" data-page="activities">Дейности</a>
+            <a href="gallery.html" data-page="gallery">Галерия</a>
+            <a href="contact.html" data-page="contact">Контакт</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="section">
+          <div class="container">
+            <div class="simple-title reveal">
+              <h1>Контакт</h1>
+            </div>
+
+            <div class="contact-layout">
+              <article class="card contact-panel reveal">
+                <div class="eyebrow">Свържете се с мен</div>
+                <h2>Ще се радвам да получа Вашето съобщение.</h2>
+                <p>
+                 Ако имате въпроси, предложения или желаете да се свържете с мен във връзка с образователни инициативи, сътрудничество или обмен на добри практики, можете да използвате следната контактна форма.
+                </p>
+
+                <div class="contact-facts">
+                  <div class="contact-fact">
+                    <span>Служебен имейл</span>
+                    <strong><a href="mailto:atanas.dimov@edu.mon.bg">atanas.dimov@edu.mon.bg</a></strong>
+                  </div>
+                  <div class="contact-fact">
+                    <span>Личен имейл</span>
+                    <strong><a href="mailto:atanas.diimov@gmail.com">atanas.diimov@gmail.com</a></strong>
+                  </div>
+                  <div class="contact-fact">
+                    <span>Телефон</span>
+                    <strong><a href="tel:+359886591697">0886591697</a></strong>
+                  </div>
+                  <div class="contact-fact">
+                    <span>Училище</span>
+                    <strong><a href="https://su-vapcarov-gtoshevo.com/" target="_blank" rel="noopener noreferrer">ИСУ „Никола Й. Вапцаров“, гр. Генерал Тошево</a></strong>
+                  </div>
+                </div>
+
+                <p class="contact-note" data-contact-note>
+                  Формата е подготвена да изпраща съобщенията директно към моя имейл.
+                </p>
+              </article>
+
+              <article class="card contact-form-card reveal">
+                <form class="contact-form" action="https://formsubmit.co/atanas.diimov@gmail.com" method="POST" data-contact-form data-contact-email="atanas.diimov@gmail.com">
+                  <input type="hidden" name="_subject" value="Ново съобщение от учителското портфолио" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="table" />
+                  <input type="text" name="_honey" class="contact-hidden-field" tabindex="-1" autocomplete="off" />
+
+                  <label class="form-field">
+                    <span>Име</span>
+                    <input type="text" name="name" placeholder="Вашето име" required />
+                  </label>
+
+                  <label class="form-field">
+                    <span>Имейл</span>
+                    <input type="email" name="email" placeholder="example@email.com" required />
+                  </label>
+
+                  <label class="form-field">
+                    <span>Тема</span>
+                    <input type="text" name="subject" placeholder="Повод за съобщението" required />
+                  </label>
+
+                  <label class="form-field">
+                    <span>Съобщение</span>
+                    <textarea name="message" rows="7" placeholder="Напишете Вашето съобщение тук..." required></textarea>
+                  </label>
+
+                  <button class="button button-primary contact-submit" type="submit">Изпрати съобщение</button>
+                </form>
+
+                <p class="contact-helper" data-contact-helper>
+                  
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-panel footer-panel--compact">
+            <div class="footer-links footer-links-centered">
+              <a href="index.html">За мен</a>
+              <a href="activities.html">Дейности</a>
+              <a href="gallery.html">Галерия</a>
+              <a href="contact.html">Контакт</a>
+            </div>
+          </div>
+          <div class="footer-legal">Атанас Димов © 2026</div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
